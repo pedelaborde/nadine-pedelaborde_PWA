@@ -1,4 +1,4 @@
-const API_KEY = "7638a9c3978ee871c118ebe83f84495b";
+const API_KEY = process.env.API_KEY;
 const button = document.getElementById("buscar");
 const h2 = document.getElementById("titulo");
 const izq = document.getElementById("izq");
